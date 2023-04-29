@@ -66,5 +66,5 @@ class Poe:
     def __init__(self) -> None:
         self.driver = webdriver.Chrome(
             service=service,
-            #options=chrome_options
+            options=chrome_options
         )
