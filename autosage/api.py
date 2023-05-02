@@ -104,7 +104,7 @@ class Client:
 
         add_message = self.wait.until(
             expected.element_to_be_clickable((
-                By.XPATH, '//textarea[@placeholder="Type a message..."]'
+                By.XPATH, '//textarea[@placeholder="Message Sage on Poe..."]'
             ))
         )
         add_message.send_keys(self.prompt)
